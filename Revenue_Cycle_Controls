@@ -1,23 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.6.1">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="976" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" value="Kissena bakery &amp;nbsp;- revenue cycle (order to cash)" vertex="1">
-          <mxGeometry height="600" width="760" x="40" y="40" as="geometry" />
+          <mxGeometry height="1120" width="761.25" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" parent="dNxyNK7c78bLwvsdeMH5-19" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="sales department" vertex="1">
-          <mxGeometry height="200" width="740" x="20" as="geometry" />
+          <mxGeometry height="360" width="741.25" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-2" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="i8uxT03S8om4M1wkMpOy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RG1u_rXo-IqUnHeWnFxJ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i8uxT03S8om4M1wkMpOy-7" parent="dNxyNK7c78bLwvsdeMH5-20" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=light-dark(#F9153F,#446E2C);" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
-          <mxGeometry height="80" width="100" x="40" y="60" as="geometry" />
+          <mxGeometry height="80" width="100" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-4" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="RG1u_rXo-IqUnHeWnFxJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RG1u_rXo-IqUnHeWnFxJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-1" parent="dNxyNK7c78bLwvsdeMH5-20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#3333FF;" value="COSTUMER PLACE ORDER" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-3" parent="dNxyNK7c78bLwvsdeMH5-20" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#e1d5e7;strokeColor=#33FF33;" value="ORDER DETAILS ENTERED INTO SYSTEM" vertex="1">
+          <mxGeometry height="100" width="150" x="270" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-23" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="RG1u_rXo-IqUnHeWnFxJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RG1u_rXo-IqUnHeWnFxJ-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-5" parent="dNxyNK7c78bLwvsdeMH5-20" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#f8cecc;strokeColor=#b85450;" value="SALES ORDER GENERATED" vertex="1">
+          <mxGeometry height="100" width="140" x="460" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-21" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="RG1u_rXo-IqUnHeWnFxJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="RG1u_rXo-IqUnHeWnFxJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-22" parent="dNxyNK7c78bLwvsdeMH5-20" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#EA6B66;strokeWidth=2;" value="CREDIT CHECK APPROVED&amp;nbsp;" vertex="1">
+          <mxGeometry height="120" width="210" x="440" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-30" parent="dNxyNK7c78bLwvsdeMH5-20" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES APPROVED" vertex="1">
+          <mxGeometry height="30" width="60" x="670" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-29" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="RG1u_rXo-IqUnHeWnFxJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="RG1u_rXo-IqUnHeWnFxJ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-34" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="RG1u_rXo-IqUnHeWnFxJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RG1u_rXo-IqUnHeWnFxJ-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-32" parent="dNxyNK7c78bLwvsdeMH5-20" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO REJECTED" vertex="1">
+          <mxGeometry height="30" width="60" x="340.63" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-31" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="RG1u_rXo-IqUnHeWnFxJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RG1u_rXo-IqUnHeWnFxJ-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RG1u_rXo-IqUnHeWnFxJ-33" parent="dNxyNK7c78bLwvsdeMH5-20" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ORDER REJECTED - CUSTOMER NOTIFIED" vertex="1">
+          <mxGeometry height="70" width="140.63" x="150" y="235" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" parent="dNxyNK7c78bLwvsdeMH5-19" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#f8cecc;strokeColor=#b85450;" value="warehouse department" vertex="1">
-          <mxGeometry height="200" width="740" x="20" y="200" as="geometry" />
+          <mxGeometry height="360" width="741.25" x="20" y="360" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" parent="dNxyNK7c78bLwvsdeMH5-19" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="billing / accounts riseivable" vertex="1">
-          <mxGeometry height="200" width="740" x="20" y="400" as="geometry" />
+          <mxGeometry height="400" width="741.25" x="20" y="720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
